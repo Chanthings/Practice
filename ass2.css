@@ -1,0 +1,50 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    line-height: 1.7;
+    background-color: rgb(224, 236, 236);
+}
+form{
+    border: 1px solid rgb(146, 143, 142);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    color: rgb(127, 129, 129);
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(5, 2, 10);
+}
+
+input[type="text"],input[type="email"],input[type="number"],textarea{
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(110, 114, 117);
+    border-radius: 4px;
+}
+   
+
+  textarea{
+    resize: vertical;
+  }
+
+
+input[type="submit"]{
+background-color: #04AA6D;
+border: none;
+color: white;
+padding: 4px 22px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover{
+background-color: red;
+}
